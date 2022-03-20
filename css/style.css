@@ -178,26 +178,39 @@ body::-webkit-scrollbar{
   right: 5%;
   bottom: 5%;
   width: fit-content;
-  display: flex;
+  /* display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-direction: column; */
 }
 
 .social-media .fa-brands{
   font-size: 1.5vmax;
   display: block;
-  /* margin: 8vh 0 0 20vh ; */
-}    
+  /* margin: 8vh 0 0 0vh ; */
+}   
+
+.social-media .icon{
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+  transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
 
 .social-media .icon a{
   position: relative;
   color: #fff;
   text-decoration: none;
   padding : 10px;
+ 
   height: fit-content;
   width: fit-content;
-  /* margin: 1.3vh 0 0 20vh; */
+  /* margin: 0vh 0 0 5vh; */
   display: grid;
   place-items: center;
   /* background: #fff; */
@@ -208,12 +221,13 @@ body::-webkit-scrollbar{
 }
 
 .social-media .icon .tooltip{
-
+  top: 0px;
   color: #fff;
   font-size: 20px ;
   position: absolute;
-  padding: 12px 18px;
-  border-radius: 25px;
+  /* margin: 1.3vh 0 0 20vh; */
+  padding: 11px 18px;
+  border-radius: 29px;
   box-shadow: 0 10px 10px rgba(0,0,0,0.1);
   opacity: 0;
   pointer-events: none;
@@ -236,7 +250,7 @@ body::-webkit-scrollbar{
     content: '';
     height: 1vmax;
     width: 1vmax;
-    bottom: -8px;
+    bottom: -6px;
     left: 50%;
     transform: translateX(-50%) rotate(45deg);
     transition: all 0.s cubic-bezier(0.68, -0.55, 0.265, 1.55);
