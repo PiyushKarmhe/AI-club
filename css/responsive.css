@@ -1,0 +1,49 @@
+/* All media Queries go here (for the landing page(index.html)) */
+
+@media screen and (max-width: 768px) {
+
+    /* Navbar - by Piyush */
+    [data-aos-delay] {
+      transition-delay: 0 !important;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .left-container {
+        display: block;
+    }
+    .left-container p{
+        margin-top: 20px;
+    }
+    .about {
+        flex-direction: column-reverse;
+    }
+    .article {
+        text-align: center;
+    }
+    
+    /* Navbar - by Piyush */
+    #header {
+        height: 70px;
+    }
+    .scrolled-offset {
+        margin-top: 90px;
+    }
+    .mobile-nav-toggle {
+        display: block;
+    }
+    .navbar ul {
+        display: none;
+    }
+}
+
+@media (max-width: 1366px) {
+
+    /* Navbar - by Piyush */
+    .navbar .dropdown .dropdown ul {
+        left: -90%;
+    }
+    .navbar .dropdown .dropdown:hover > ul {
+        left: -100%;
+    }
+}

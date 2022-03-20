@@ -6,7 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI Club | Vit bhopal</title>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- CSS files -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alegreya+SC&family=Exo:ital,wght@0,200;0,300;1,200&family=Josefin+Sans:ital,wght@0,200;0,300;1,300&family=Lato:wght@300;400&family=Noto+Sans:wght@400;700&family=Roboto+Condensed:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
@@ -29,40 +34,37 @@
 
         </div>
         <div class="header-mid">
-            <img src="/images/club-unscreen.png" alt="">
             
-
             <div class="heading">
                 <h1>AI Club</h1>
-                <p>Vit bhopal</p>
-    
             </div>
         
         </div>
         <div class="text-box">
-            <a href="">more</a>
-            <a href="">connect with us</a>
-            <span>Lorem ipsum dolor sit amet consectetur adipisicing <br>Vero, aliquam! Voluptatibus </span>
-
-            <div class="social-media">            
+            <div class="left-container">
+                <div class="left-container-links">
+                    <a href="">more</a>
+                    <a href="">connect with us</a>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing <br>Vero, aliquam! Voluptatibus </p>
+            </div>
+            <div class="social-media">
                 <div class="icon instagram">
                     <div class="tooltip">Instagram</div>
-                    <span><i class="fab fa-instagram"></i></span>            
+                    <a href="#"><i class="fab fa-instagram"></i></a>            
                 </div>
                 <div class="icon github">
                     <div class="tooltip">Github</div>
-                    <span><i class="fab fa-github"></i></span>            
+                    <a href="#"><i class="fab fa-github"></i></a>            
                 </div>
                 <div class="icon youtube">
                     <div class="tooltip">Youtube</div>
-                    <span><i class="fab fa-youtube"></i></span>
-                    
+                    <a href="#"><i class="fab fa-youtube"></i></a>
                 </div>
             </div>
         </div>
-    
     </section>
-    <!-- Section Added By Piyush -->
+
     <!-- ======= Header ======= -->
     <header id="header" class="d-flex align-items-center">
         <div class="container d-flex align-items-center justify-content-between">
@@ -71,6 +73,7 @@
             <a href="index.html"><img src="https://avatars.githubusercontent.com/u/80619013?s=280&v=4" alt="" class="img-fluid"></a>
         </div>
 
+        <!-- .navbar -->
         <nav id="navbar" class="navbar">
             <ul>
             <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
@@ -80,27 +83,19 @@
             <li><a class="nav-link scrollto" href="#contact">Contact Us</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
-        </nav><!-- .navbar -->
-
+        </nav>
         </div>
     </header>
     <!-- End Header --> 
-    <!-- Changes ended -->
 
     <!-- Main Section Starts -->
     <main id="main">
         <section>
             <div class="about" data-aos="fade-up"
-            data-aos-duration="30" data-aos="fade-down"
-            data-aos-easing="linear"
-            data-aos-duration="1500">
+            data-aos-duration="30">
                 <div class="article">
                     <h1>About Ai Club</h1>
-                    <p>
-                        The fields of Artificial Intelligence (AI) and Machine Learning (ML) are two domains that are playing a significant role in the fast-changing world of advanced technologies. In the last few years, these both areas have emerged to be the driving force that is being applied at every nook and corner of the world, not just to provide automation but also to tackle real life problems.<br>Artificial Intelligence (AI) and Machine Learning (ML) are an eclectic mix of algorithms, that are implied in a wide range of applications, be it engineering, pure sciences, research and development, medical, linguistics amongst various other areas.
-                        <br>Experts in both these domains are going to be in persistent demand worldwide, with more and more corporate conglomerates in India and abroad realizing its potential. The latest trends in AI & ML are aiding different business sectors and even professionals in reimagining the viability of varied possibilities in data predictions, analysis and optimization of possible potential scenarios and successfully tackling the given tasks.
-                    </p>
-                    
+                    <p>AI club is a very new club of VIT Bhopal, for all the futuristic ones. We promise to make systems adaptive through artificial intelligence. We will be organizing webinars, debates, various competitions to show up your skills and improve the abilities to analyze, and develop computational intelligence. Our main goal is to administer you with the industrial challenges for your better future. Everyone will be given an equal opportunity here.</p>
                 </div>
                 <div class="art-logo">
                     <img src="/images/download-removebg-preview.png" alt="">
@@ -113,7 +108,7 @@
                 <div class="team">
                     <h1>our faculty coordinators</h1>
                     <div class="content">
-                        <div class="card">
+                        <div class="faculty-card">
                             <div class="box">
                                 <img src="/images/sountharrajan.jpg" alt="">
                                 <div class="info">
@@ -127,7 +122,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="card">
+                        <div class="faculty-card">
                             <div class="box">
                                 <img src="/images/DrSuthir.jpg" alt="">
                                 <div class="info">
@@ -141,7 +136,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="card">
+                        <div class="faculty-card">
                             <div class="box">
                                 <img src="/images/DrMayuri.jpg" alt="">
                                 <div class="info">
@@ -161,10 +156,10 @@
         </section>
     </main>
 </body>
+<!-- AOS CDN -->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
     AOS.init();
-</script>
 </script>
 <!-- Template Main JS File -->
 <script src="js/main.js"></script>
