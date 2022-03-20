@@ -13,9 +13,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Vendor CSS Files -->
+  <link href="vendor/aos/aos.css" rel="stylesheet">
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 </head>
 <body>
-    <header class="hero-main" data-aos="fade-up" >
+    <!-- Changed header tag to section-Piyush -->
+    <section class="hero-main" data-aos="fade-up" > 
         <div class="header-main">
             <img src="/images/bhopal.png" alt="logo">
 
@@ -36,11 +44,7 @@
             <a href="">connect with us</a>
             <span>Lorem ipsum dolor sit amet consectetur adipisicing <br>Vero, aliquam! Voluptatibus </span>
 
-            <div class="social-media">
-                <!-- <i href="" class="fa-brands fa-linkedin"></i>
-                <i href="" class="fa-brands fa-instagram"></i>
-                <i href="" class="fa-brands fa-github"></i> -->
-            
+            <div class="social-media">            
                 <div class="icon instagram">
                     <div class="tooltip">Instagram</div>
                     <span><i class="fab fa-instagram"></i></span>            
@@ -57,83 +61,111 @@
             </div>
         </div>
     
-    </header>
+    </section>
+    <!-- Section Added By Piyush -->
+    <!-- ======= Header ======= -->
+    <header id="header" class="d-flex align-items-center">
+        <div class="container d-flex align-items-center justify-content-between">
 
-    <section>
-        <div class="about" data-aos="fade-up"
-        data-aos-duration="30" data-aos="fade-down"
-        data-aos-easing="linear"
-        data-aos-duration="1500">
-            <div class="article">
-                <h1>About Ai Club</h1>
-                <p>
-                    The fields of Artificial Intelligence (AI) and Machine Learning (ML) are two domains that are playing a significant role in the fast-changing world of advanced technologies. In the last few years, these both areas have emerged to be the driving force that is being applied at every nook and corner of the world, not just to provide automation but also to tackle real life problems.<br>Artificial Intelligence (AI) and Machine Learning (ML) are an eclectic mix of algorithms, that are implied in a wide range of applications, be it engineering, pure sciences, research and development, medical, linguistics amongst various other areas.
-                    <br>Experts in both these domains are going to be in persistent demand worldwide, with more and more corporate conglomerates in India and abroad realizing its potential. The latest trends in AI & ML are aiding different business sectors and even professionals in reimagining the viability of varied possibilities in data predictions, analysis and optimization of possible potential scenarios and successfully tackling the given tasks.
-                </p>
-                 
-            </div>
-            <div class="art-logo">
-                <img src="/images/download-removebg-preview.png" alt="">
-            </div>   
+        <div class="logo">
+            <a href="index.html"><img src="https://avatars.githubusercontent.com/u/80619013?s=280&v=4" alt="" class="img-fluid"></a>
         </div>
-        
-        <div class="faculty" data-aos="fade-right"
-        data-aos-offset="300"
-        data-aos-easing="ease-in-sine">
-            <div class="team">
-                <h1>our faculty coordinators</h1>
-                <div class="content">
-                    <div class="card">
-                        <div class="box">
-                            <img src="/images/sountharrajan.jpg" alt="">
-                            <div class="info">
-                                <div class="name">Dr S Sountharrajan</div>
-                                <div class="detail">Artificial Intelligence Division Head</div>
-                                <div class="social-info">
-                                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
-                                    <a href=""><i class="fa-brands fa-instagram"></i></a>
-                                    <a href=""><i class="fa-brands fa-github"></i></a>
+
+        <nav id="navbar" class="navbar">
+            <ul>
+            <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+            <li><a class="nav-link scrollto" href="#about">Events</a></li>
+            <li><a class="nav-link scrollto" href="#team-c">People</a></li>
+            <li><a class="nav-link scrollto " href="https://medium.com/ai-club-vit-bhopal">Blogs</a></li>
+            <li><a class="nav-link scrollto" href="#contact">Contact Us</a></li>
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav><!-- .navbar -->
+
+        </div>
+    </header>
+    <!-- End Header --> 
+    <!-- Changes ended -->
+
+    <!-- Main Section Starts -->
+    <main id="main">
+        <section>
+            <div class="about" data-aos="fade-up"
+            data-aos-duration="30" data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500">
+                <div class="article">
+                    <h1>About Ai Club</h1>
+                    <p>
+                        The fields of Artificial Intelligence (AI) and Machine Learning (ML) are two domains that are playing a significant role in the fast-changing world of advanced technologies. In the last few years, these both areas have emerged to be the driving force that is being applied at every nook and corner of the world, not just to provide automation but also to tackle real life problems.<br>Artificial Intelligence (AI) and Machine Learning (ML) are an eclectic mix of algorithms, that are implied in a wide range of applications, be it engineering, pure sciences, research and development, medical, linguistics amongst various other areas.
+                        <br>Experts in both these domains are going to be in persistent demand worldwide, with more and more corporate conglomerates in India and abroad realizing its potential. The latest trends in AI & ML are aiding different business sectors and even professionals in reimagining the viability of varied possibilities in data predictions, analysis and optimization of possible potential scenarios and successfully tackling the given tasks.
+                    </p>
+                    
+                </div>
+                <div class="art-logo">
+                    <img src="/images/download-removebg-preview.png" alt="">
+                </div>   
+            </div>
+            
+            <div class="faculty" data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
+                <div class="team">
+                    <h1>our faculty coordinators</h1>
+                    <div class="content">
+                        <div class="card">
+                            <div class="box">
+                                <img src="/images/sountharrajan.jpg" alt="">
+                                <div class="info">
+                                    <div class="name">Dr S Sountharrajan</div>
+                                    <div class="detail">Artificial Intelligence Division Head</div>
+                                    <div class="social-info">
+                                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                                        <a href=""><i class="fa-brands fa-github"></i></a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="card">
-                        <div class="box">
-                            <img src="/images/DrSuthir.jpg" alt="">
-                            <div class="info">
-                                <div class="name">Dr Suthir S</div>
-                                <div class="detail">AI Division/Club Co-ordinator</div>
-                                <div class="social-info">
-                                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
-                                    <a href=""><i class="fa-brands fa-instagram"></i></a>
-                                    <a href=""><i class="fa-brands fa-github"></i></a>
+                        <div class="card">
+                            <div class="box">
+                                <img src="/images/DrSuthir.jpg" alt="">
+                                <div class="info">
+                                    <div class="name">Dr Suthir S</div>
+                                    <div class="detail">AI Division/Club Co-ordinator</div>
+                                    <div class="social-info">
+                                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                                        <a href=""><i class="fa-brands fa-github"></i></a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="card">
-                        <div class="box">
-                            <img src="/images/DrMayuri.jpg" alt="">
-                            <div class="info">
-                                <div class="name">Dr AVR Mayuri</div>
-                                <div class="detail">Programme Chair Int M.Tech AIML/Club Co-ordinator</div>
-                                <div class="social-info">
-                                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
-                                    <a href=""><i class="fa-brands fa-instagram"></i></a>
-                                    <a href=""><i class="fa-brands fa-github"></i></a>
+                        <div class="card">
+                            <div class="box">
+                                <img src="/images/DrMayuri.jpg" alt="">
+                                <div class="info">
+                                    <div class="name">Dr AVR Mayuri</div>
+                                    <div class="detail">Programme Chair Int M.Tech AIML/Club Co-ordinator</div>
+                                    <div class="social-info">
+                                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                                        <a href=""><i class="fa-brands fa-github"></i></a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        
-        .
-    </section>
+        </section>
+    </main>
 </body>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
     AOS.init();
 </script>
+</script>
+<!-- Template Main JS File -->
+<script src="js/main.js"></script>
 </html>
